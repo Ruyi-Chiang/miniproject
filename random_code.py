@@ -9,7 +9,7 @@ def rename_files(path):
 	# for each file, rename filename
 	for file_name in file_list:
 		random_int = str(random.randint(232, 2398))
-		new_file_name = random_int + file_name + random_int
+		new_file_name = random_int + file_name
 		os.rename(file_name, new_file_name)
 
 
