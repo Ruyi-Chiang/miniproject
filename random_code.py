@@ -5,7 +5,7 @@ def rename_files(path):
 	# get a list of file names from a folder
 	os.chdir(path)
 	file_list = os.listdir(path)
-	print file_list
+	
 	# for each file, rename filename
 	for file_name in file_list:
 		random_int = str(random.randint(232, 2398))
